@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="46.710146">
+<testcase classname="Sample Mobile app automation" name="Sample Mobile app automation" time="25.442261">
+<system-out><![CDATA[Given Enter username as percival@gmail.com and password as 123456...........passed
+Then Click on Login Button..................................................passed
+Then Verify if house image is available.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sample Mobile app automation" name="Sample Mobile app automation 2" time="21.267885">
+<system-out><![CDATA[Given Enter username as arthur@gmail.com and password as 98765..............passed
+Then Click on Login Button..................................................passed
+Then Verify if house image is available.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

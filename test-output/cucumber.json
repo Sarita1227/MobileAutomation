@@ -1,0 +1,176 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14885064064,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppStepDefinition.beforeclass()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Sample Mobile app automation",
+        "description": "",
+        "id": "sample-mobile-app-automation;sample-mobile-app-automation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1545144618,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppStepDefinition.afterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2735566685,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter username as percival@gmail.com and password as 123456",
+            "match": {
+              "arguments": [
+                {
+                  "val": "percival@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "123456",
+                  "offset": 53
+                }
+              ],
+              "location": "AppStepDefinition.enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1256589205,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "AppStepDefinition.click_on_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5019896557,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify if house image is available",
+            "match": {
+              "location": "AppStepDefinition.verify_if_house_image_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11258801047,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppStepDefinition.beforeclass()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Sample Mobile app automation",
+        "description": "",
+        "id": "sample-mobile-app-automation;sample-mobile-app-automation;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1350005724,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppStepDefinition.afterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2496486159,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Enter username as arthur@gmail.com and password as 98765",
+            "match": {
+              "arguments": [
+                {
+                  "val": "arthur@gmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "98765",
+                  "offset": 51
+                }
+              ],
+              "location": "AppStepDefinition.enter_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1152306272,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Login Button",
+            "match": {
+              "location": "AppStepDefinition.click_on_Login_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5010285616,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify if house image is available",
+            "match": {
+              "location": "AppStepDefinition.verify_if_house_image_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sample Mobile app automation",
+    "description": "",
+    "id": "sample-mobile-app-automation",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/app.feature"
+  }
+]
